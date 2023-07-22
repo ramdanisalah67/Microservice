@@ -1,0 +1,7 @@
+
+server.port = 8083
+
+zuul.routes.ms1.url=http://localhost:8081/api/ms1
+zuul.routes.ms2.url=http://localhost:8082/api/message
+
+ ribbon.eureka.enabled = false
